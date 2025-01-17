@@ -1,0 +1,106 @@
+/* Reset de estilos padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para o container principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c0392b;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.projectCard {
+  background-color: #ecf0f1;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-10px);
+  background-color: #bdc3c7;
+}
+
+.projectCard h3 {
+  color: #2980b9;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.projectCard p {
+  color: #7f8c8d;
+  font-size: 16px;
+}
+
+.projectCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.projectCard .button {
+  margin-top: 15px;
+}

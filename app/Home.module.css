@@ -1,0 +1,25 @@
+.projectCard {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectCard h3 {
+    color: #2980b9;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .projectCard p {
+    color: #7f8c8d;
+    font-size: 16px;
+  }
+  
+  .projectCard:hover {
+    background-color: #bdc3c7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
